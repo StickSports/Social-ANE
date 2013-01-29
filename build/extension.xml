@@ -1,0 +1,16 @@
+<extension xmlns="http://ns.adobe.com/air/extension/3.1">
+	<id>com.sticksports.nativeExtensions.Social</id>
+	<versionNumber>0.5.0</versionNumber>
+	<platforms>
+		<platform name="iPhone-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libSocialIosExtension.a</nativeLibrary>
+				<initializer>SocialExtensionInitializer</initializer>
+				<finalizer>SocialExtensionFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="default">
+			<applicationDeployment/>
+		</platform>
+	</platforms>
+</extension>

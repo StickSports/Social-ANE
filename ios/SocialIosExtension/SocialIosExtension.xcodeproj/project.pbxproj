@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7966A0E816B83CFD001907D7 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7966A0E616B83CCA001907D7 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		79ED769F16B6CE6400411993 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79ED769E16B6CE6400411993 /* Foundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		79ED76A616B6CE6400411993 /* SocialIosExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ED76A516B6CE6400411993 /* SocialIosExtension.m */; };
+		79ED76BB16B7C91700411993 /* SocialTypeConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ED76BA16B7C91700411993 /* SocialTypeConversion.m */; };
+		79ED76BE16B7CC8000411993 /* SocialMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ED76BD16B7CC8000411993 /* SocialMessage.m */; };
+		79ED76C116B7D51B00411993 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79ED76BF16B7D50B00411993 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		79ED769916B6CE6400411993 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7966A0E616B83CCA001907D7 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Social.framework; sourceTree = DEVELOPER_DIR; };
+		79ED769B16B6CE6400411993 /* libSocialIosExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSocialIosExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		79ED769E16B6CE6400411993 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79ED76A516B6CE6400411993 /* SocialIosExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialIosExtension.m; sourceTree = "<group>"; };
+		79ED76B216B7C38A00411993 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+		79ED76B916B7C91700411993 /* SocialTypeConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialTypeConversion.h; sourceTree = "<group>"; };
+		79ED76BA16B7C91700411993 /* SocialTypeConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialTypeConversion.m; sourceTree = "<group>"; };
+		79ED76BC16B7CC8000411993 /* SocialMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialMessage.h; sourceTree = "<group>"; };
+		79ED76BD16B7CC8000411993 /* SocialMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialMessage.m; sourceTree = "<group>"; };
+		79ED76BF16B7D50B00411993 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		79ED76C216B7E77C00411993 /* SocialInternalMessages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialInternalMessages.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79ED769816B6CE6400411993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79ED769F16B6CE6400411993 /* Foundation.framework in Frameworks */,
+				79ED76C116B7D51B00411993 /* UIKit.framework in Frameworks */,
+				7966A0E816B83CFD001907D7 /* Social.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79ED769016B6CE6400411993 = {
+			isa = PBXGroup;
+			children = (
+				79ED76A016B6CE6400411993 /* SocialIosExtension */,
+				79ED769D16B6CE6400411993 /* Frameworks */,
+				79ED769C16B6CE6400411993 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79ED769C16B6CE6400411993 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79ED769B16B6CE6400411993 /* libSocialIosExtension.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79ED769D16B6CE6400411993 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7966A0E616B83CCA001907D7 /* Social.framework */,
+				79ED76BF16B7D50B00411993 /* UIKit.framework */,
+				79ED769E16B6CE6400411993 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79ED76A016B6CE6400411993 /* SocialIosExtension */ = {
+			isa = PBXGroup;
+			children = (
+				79ED76A516B6CE6400411993 /* SocialIosExtension.m */,
+				79ED76B916B7C91700411993 /* SocialTypeConversion.h */,
+				79ED76BA16B7C91700411993 /* SocialTypeConversion.m */,
+				79ED76B216B7C38A00411993 /* FlashRuntimeExtensions.h */,
+				79ED76BC16B7CC8000411993 /* SocialMessage.h */,
+				79ED76BD16B7CC8000411993 /* SocialMessage.m */,
+				79ED76C216B7E77C00411993 /* SocialInternalMessages.h */,
+			);
+			path = SocialIosExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79ED769A16B6CE6400411993 /* SocialIosExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79ED76A916B6CE6400411993 /* Build configuration list for PBXNativeTarget "SocialIosExtension" */;
+			buildPhases = (
+				79ED769716B6CE6400411993 /* Sources */,
+				79ED769816B6CE6400411993 /* Frameworks */,
+				79ED769916B6CE6400411993 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialIosExtension;
+			productName = SocialIosExtension;
+			productReference = 79ED769B16B6CE6400411993 /* libSocialIosExtension.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79ED769216B6CE6400411993 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Richard Lord";
+			};
+			buildConfigurationList = 79ED769516B6CE6400411993 /* Build configuration list for PBXProject "SocialIosExtension" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79ED769016B6CE6400411993;
+			productRefGroup = 79ED769C16B6CE6400411993 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79ED769A16B6CE6400411993 /* SocialIosExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79ED769716B6CE6400411993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79ED76A616B6CE6400411993 /* SocialIosExtension.m in Sources */,
+				79ED76BB16B7C91700411993 /* SocialTypeConversion.m in Sources */,
+				79ED76BE16B7CC8000411993 /* SocialMessage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		79ED76A716B6CE6400411993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79ED76A816B6CE6400411993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79ED76AA16B6CE6400411993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SocialIosExtension.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos6.0;
+				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = debugging;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79ED76AB16B6CE6400411993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SocialIosExtension.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos6.0;
+				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = debugging;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79ED769516B6CE6400411993 /* Build configuration list for PBXProject "SocialIosExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79ED76A716B6CE6400411993 /* Debug */,
+				79ED76A816B6CE6400411993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79ED76A916B6CE6400411993 /* Build configuration list for PBXNativeTarget "SocialIosExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79ED76AA16B6CE6400411993 /* Debug */,
+				79ED76AB16B6CE6400411993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79ED769216B6CE6400411993 /* Project object */;
+}

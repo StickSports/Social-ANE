@@ -1,0 +1,84 @@
+h1. Air Native Extension for social messaging on iOS
+
+This is an "Air native extension":http://www.adobe.com/devnet/air/native-extensions-for-air.html for send messages
+to social networks on iOS. It utilizes the social functionality added in iOS6.
+
+h3. Binary files
+
+The bin folder contains the compiled extension and the default swc, which can be used for local testing if required by your development environment (Flash Builder shouldn't need it, but other IDEs may).
+
+h3. Using the extension
+
+h4. Test if the extension is supported
+
+@Social.isSupported : Boolean;@
+
+Is a boolean. Will return false on platforms other than iOS and on iOS versions prior to 6.0.
+
+h4. Test if a particular social network is supported
+
+@Social.isAvailableForService( service : SocialService ) : Boolean;@
+
+The possible values for the SocialService are
+
+SocialService.twitter
+SocialService.facebook
+SocialService.sinaWeibo
+
+h4. Create a new social media message
+
+@var social : Social = new Social( service : SocialService );@
+
+Again, the possible values for the SocialService are
+
+SocialService.twitter
+SocialService.facebook
+SocialService.sinaWeibo
+
+h4. Set the message text
+
+@Social.setMessage( message : String ) : Boolean;@
+
+Returns true if the message was successfully set, and false if not.
+
+h4. Add a URL to the message
+
+@Social.addUrl( url : String ) : Boolean;@
+
+Returns true if the url was successfully added, and false if not.
+
+h4. Add an image to the message
+
+@Social.addImage( image : BitmapData ) : Boolean;@
+
+Returns true if the image was successfully added, and false if not.
+
+h4. Clear all URLs from the message the message
+
+@Social.clearUrls() : Boolean;@
+
+Returns true if the urls were successfully cleared, and false if not.
+
+h4. Clear all images from the message the message
+
+@Social.clearImages() : Boolean;@
+
+Returns true if the urls were successfully cleared, and false if not.
+
+h4. Launch the iOS message view for the user to edit and send the message
+
+@Social.launch() : Boolean;@
+
+Returns true if the view was successfully launched, and false if not.
+
+h4. Events dispatched
+
+After launching the message view, the user may edit and send the message or may cancel it. When this process is complete,
+one of two events will be dispatched form the Social object
+
+SocialEvent.COMPLETE;
+SocialEvent.CANCELLED;
+
+h3. License
+
+This project is licensed under the "BSD license":https://github.com/StickSports/Social-ANE/blob/master/LICENSE
