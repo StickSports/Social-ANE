@@ -1,7 +1,6 @@
 h1. Air Native Extension for social messaging on iOS
 
-This is an "Air native extension":http://www.adobe.com/devnet/air/native-extensions-for-air.html for send messages
-to social networks on iOS. It utilizes the social functionality added in iOS6.
+This is an "Air native extension":http://www.adobe.com/devnet/air/native-extensions-for-air.html for sending messages to social networks on iOS. It utilizes the social functionality added in iOS6.
 
 h3. Binary files
 
@@ -21,9 +20,9 @@ h4. Test if a particular social network is supported
 
 The possible values for the SocialService are
 
-SocialService.twitter
-SocialService.facebook
-SocialService.sinaWeibo
+* @SocialService.twitter@
+* @SocialService.facebook@
+* @SocialService.sinaWeibo@
 
 h4. Create a new social media message
 
@@ -31,9 +30,9 @@ h4. Create a new social media message
 
 Again, the possible values for the SocialService are
 
-SocialService.twitter
-SocialService.facebook
-SocialService.sinaWeibo
+* @SocialService.twitter@
+* @SocialService.facebook@
+* @SocialService.sinaWeibo@
 
 h4. Set the message text
 
@@ -73,11 +72,10 @@ Returns true if the view was successfully launched, and false if not.
 
 h4. Events dispatched
 
-After launching the message view, the user may edit and send the message or may cancel it. When this process is complete,
-one of two events will be dispatched form the Social object
+After launching the message view, the user may edit and send the message or may cancel it. When this process is complete, one of two events will be dispatched form the Social object
 
-SocialEvent.COMPLETE;
-SocialEvent.CANCELLED;
+* @SocialEvent.COMPLETE;@
+* @SocialEvent.CANCELLED;@
 
 h3. License
 
