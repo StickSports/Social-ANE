@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>ABFB09BE-293F-4A8B-8044-72C029CC2504</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SocialIosExtension</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>00E26964EA63CC87A44E867291930D0C506072B9</key>
+		<string>https://github.com/StickSports/Social-ANE.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ios/SocialIosExtension/SocialIosExtension.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>00E26964EA63CC87A44E867291930D0C506072B9</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/StickSports/Social-ANE.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>00E26964EA63CC87A44E867291930D0C506072B9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>00E26964EA63CC87A44E867291930D0C506072B9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Social-ANE</string>
+		</dict>
+	</array>
+</dict>
+</plist>
