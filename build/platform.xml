@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<platform xmlns="http://ns.adobe.com/air/extension/3.1">
+<platform xmlns="http://ns.adobe.com/air/extension/25.0">
 
 	<!-- The version of iOS SDK that the app should be linked with. Optional. -->
 	<sdkVersion>6.0</sdkVersion>
