@@ -75,8 +75,6 @@
 	<target name="package" description="Create the extension package">
 		<exec executable="${sdk.home}/bin/adt" failonerror="true" dir="../temp">
 			<arg value="-package"/>
-			<arg value="-tsa" />
-			<arg value="${timestamp.code.signing.url}" />
 			<arg value="-storetype"/>
 			<arg value="pkcs12"/>
 			<arg value="-keystore"/>
