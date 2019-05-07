@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7966A0E816B83CFD001907D7 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7966A0E616B83CCA001907D7 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		017EE273227060E200EE6632 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017EE272227060E200EE6632 /* Social.framework */; };
 		79ED769F16B6CE6400411993 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79ED769E16B6CE6400411993 /* Foundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		79ED76A616B6CE6400411993 /* SocialIosExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ED76A516B6CE6400411993 /* SocialIosExtension.m */; };
 		79ED76BB16B7C91700411993 /* SocialTypeConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ED76BA16B7C91700411993 /* SocialTypeConversion.m */; };
@@ -28,7 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7966A0E616B83CCA001907D7 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Social.framework; sourceTree = DEVELOPER_DIR; };
+		017EE272227060E200EE6632 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		79ED769B16B6CE6400411993 /* libSocialIosExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSocialIosExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		79ED769E16B6CE6400411993 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		79ED76A516B6CE6400411993 /* SocialIosExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialIosExtension.m; sourceTree = "<group>"; };
@@ -46,9 +46,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				017EE273227060E200EE6632 /* Social.framework in Frameworks */,
 				79ED769F16B6CE6400411993 /* Foundation.framework in Frameworks */,
 				79ED76C116B7D51B00411993 /* UIKit.framework in Frameworks */,
-				7966A0E816B83CFD001907D7 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +75,7 @@
 		79ED769D16B6CE6400411993 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7966A0E616B83CCA001907D7 /* Social.framework */,
+				017EE272227060E200EE6632 /* Social.framework */,
 				79ED76BF16B7D50B00411993 /* UIKit.framework */,
 				79ED769E16B6CE6400411993 /* Foundation.framework */,
 			);
@@ -209,7 +209,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -227,7 +227,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
